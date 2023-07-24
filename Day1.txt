@@ -1,0 +1,30 @@
+PS D:\Software Engineering> git init //Berfungsi Menginisiasi bahwa ada git di folder ini
+Initialized empty Git repository in D:/Software Engineering/.git/
+PS D:\Software Engineering> git add . //meng add semua file yang ada
+PS D:\Software Engineering> git commit -m "first commit"
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'asus@LAPTOP-JPLA4FD4.(none)')
+PS D:\Software Engineering> git config --global user.email "lastris778@gmail.com"
+PS D:\Software Engineering> git config --global user.email "Sri Sulastri"        
+PS D:\Software Engineering> git commit -m "first commit" 
+[master (root-commit) 72d0bb2] first commit
+ 1 file changed, 11 insertions(+)
+ create mode 100644 index.html
+PS D:\Software Engineering> git commit -m "Second commmit" //Jika melakukan perubahan pada code dapat disimpan pada commit
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        home.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
